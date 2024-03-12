@@ -1,0 +1,70 @@
+
+
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    height: 100vh;
+
+
+}
+
+.section-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 25%;
+    margin-top: 1%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffffff;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+
+}
+.label-text{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 10px;
+    
+}
+.input-field{
+    width: 97%;
+    height: 50%;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    width: 80%;
+    height: 15%;
+    font-size: 18px;
+    
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.error-text{
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
